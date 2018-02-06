@@ -1,0 +1,13 @@
+
+.falconNav {
+  background: linear-gradient(30deg, #1c91bc 2%, #0b6484 100% );
+  color: white;
+  font-size: 1.3rem;
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 40px;
+  }
+}
