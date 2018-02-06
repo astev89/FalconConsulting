@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+.idea/
+dist/
+.vscode
+npm-debug.log
+.env
+*.swp
+build.log
+.nyc_output/
+coverage/
+package-lock.json

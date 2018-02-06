@@ -1,0 +1,4 @@
+{
+  "presets": ["react", "stage-1", ["env", {"targets": {"browsers": ["last 2 versions", "not ie <= 11"]}}]],
+  "plugins": ["transform-decorators-legacy", "babel-plugin-transform-class-properties"]
+}
