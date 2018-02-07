@@ -10,11 +10,13 @@ export default class Home extends Component {
   render() {
     return (
       <div className="falcon-home">
-        <h1 className="falcon-home__heading">What is a 'Cryptocurrency'?</h1>
-        <p>A cryptocurrency is a digital or virtual currency designed to work as a means of exchange between any number of parties.</p>
+        <h1 className="falcon-home__heading">Start Crypto Mining Today!</h1>
+        <p className="falcon-home__subtext">
+          At Falcon Consulting we provide one of the easiest, smartest and safest ways to enter the cryptocurrency space.
+        </p>
 
         <h2 className="falcon-home__heading">What is mining?</h2>
-        <p>Some mining content here.</p>
+        <p>Remove.</p>
 
         <h3 className="falcon-home__heading">How much can I make?</h3>
         <p>Some profitability content here.</p>

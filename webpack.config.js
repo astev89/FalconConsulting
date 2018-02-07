@@ -10,7 +10,7 @@ const babelEntry = (p) => ['babel-polyfill', path.resolve(__dirname, p)]
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   entry: {
-    main: babelEntry('./src/main') 
+    main: babelEntry('./src/main')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -54,7 +54,7 @@ module.exports = {
       favicon: './images/favicon.ico',
       inject: 'body'
     }),
-    ExtractCSS 
+    ExtractCSS
   ],
   devtool: 'source-map',
   devServer: {
