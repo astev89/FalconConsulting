@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-export default class Faq extends Component {
+export default class OurPromise extends Component {
   constructor(props) {
     super(props)
 
@@ -10,7 +10,7 @@ export default class Faq extends Component {
   render() {
     return (
       <div className="test">
-        <h1>Faq</h1>
+        <h1>Our Promise</h1>
       </div>
     )
   }
