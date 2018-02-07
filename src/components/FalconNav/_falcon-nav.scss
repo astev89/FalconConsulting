@@ -1,13 +1,56 @@
 
-.falconNav {
-  background: linear-gradient(30deg, #1c91bc 2%, #0b6484 100% );
-  color: white;
-  font-size: 1.3rem;
+.falcon-header {
+  background-image: linear-gradient(
+    -50deg, 
+    rgba(14, 86, 110, 0.7) 1%, 
+    rgba(21, 32, 114, 0.7) 100%
+  ), 
+  url(https://s3.amazonaws.com/cdn.falconconsulting.com/falconart.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 380px;
+  padding: 20px 8px 0;
 
-  &__container {
+  &__heading {
+    color: white;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+
+  &__heading-2 {
     display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    height: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 3.8rem;
+    text-align: center;
+    margin-top: 56px;
+
+    @media(min-width: 768px) {
+      margin-top: 96px;
+    }
+  }
+
+  &__subtext {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-top: 8px;
+    color: white;
+  }
+
+  & .falcon-nav {
+    color: white;
+    font-size: 1.3rem;
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
