@@ -1,11 +1,13 @@
 import React, {Component} from 'react'
 import './_home.scss'
+
 export default class Home extends Component {
   constructor(props) {
     super(props)
 
     this.state = {}
   }
+
 
   render() {
     return (

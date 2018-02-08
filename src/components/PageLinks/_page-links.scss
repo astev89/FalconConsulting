@@ -1,0 +1,21 @@
+.page-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+
+  &__item {
+    margin-top: 36px;
+
+    &-text {
+      text-decoration: none;
+      color: white;
+      font-size: 1.6rem;
+    }
+
+    & hr {
+      color: #f4f00e;
+    }
+  }
+}

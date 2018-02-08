@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter, Route} from 'react-router-dom'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import AppContainer from 'components/AppContainer'
 import FalconNav from 'components/FalconNav'
 import Home from 'main/Home'
@@ -14,11 +14,13 @@ export default function Routes() {
     <BrowserRouter>
       <AppContainer>
         <FalconNav>
-          <Route path="/" component={Home} />
-          <Route path="/plans" component={Plans} />
-          <Route path="/team" component={Team} />
-          <Route path="/ourpromise" component={OurPromise} />
-          <Route path="/faq" component={Faq} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/plans" component={Plans} />
+            <Route path="/team" component={Team} />
+            <Route path="/ourpromise" component={OurPromise} />
+            <Route path="/faq" component={Faq} />
+          </Switch>
         </FalconNav>
       </AppContainer>
     </BrowserRouter>
