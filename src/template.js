@@ -9,6 +9,7 @@ export default () => (
       <title>Falcon Consulting</title>
     </head>
     <body>
+      <header id='header'></header>
       <div id='root'></div>
     </body>
   </html>`

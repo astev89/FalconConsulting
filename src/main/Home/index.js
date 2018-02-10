@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import PortalComponent from 'components/PortalComponent'
 import './_home.scss'
 
 export default class Home extends Component {
@@ -12,6 +13,14 @@ export default class Home extends Component {
   render() {
     return (
       <div className="falcon-home">
+        <PortalComponent>
+          <h2 className="falcon-header__heading-2">
+            Let Your Investments Soar
+          </h2>
+          <p className="falcon-header__subtext">
+            Your all inclusive crypto currency mining solution.
+          </p>
+        </PortalComponent>
         <h1 className="falcon-home__heading">Start Crypto Mining Today!</h1>
         <p className="falcon-home__subtext">
           At Falcon Consulting we provide one of the easiest, smartest and safest ways to enter the cryptocurrency space.

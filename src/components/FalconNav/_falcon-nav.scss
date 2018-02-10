@@ -1,28 +1,44 @@
 
 .falcon-header {
-  background: linear-gradient(
-    -50deg,
-    rgba(14, 86, 110, 0.7) 1%,
-    rgba(21, 32, 114, 0.7) 100%
-  ),
-  url(https://s3.amazonaws.com/cdn.falconconsulting.com/falconart.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  // height: 380px;
+  // background: linear-gradient(
+  //   -50deg,
+  //   rgba(14, 86, 110, 0.7) 1%,
+  //   rgba(21, 32, 114, 0.7) 100%
+  // ),
+  // url(https://s3.amazonaws.com/cdn.falconconsulting.com/falconart.jpg);
+  // background-repeat: no-repeat;
+  // background-position: top;
+  // background-size: cover;
+  height: 380px;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
   position: fixed;
-  // &__underlay {
-    // position: fixed;
-    // z-index: 0;
-    // top: 0;
-    // left: 0;
-    // right: 0;
-  // }
+  background: white;
+
+
+  &__underlay {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: url(https://s3.amazonaws.com/cdn.falconconsulting.com/falconart.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 380px;
+  }
 
   &__nav {
     padding: 20px 8px 0;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
     &-heading, a {
       color: white;
@@ -31,6 +47,11 @@
       font-weight: bold;
       font-size: 2rem;
     }
+  }
+
+  & .grad {
+    height: 100%;
+    background: linear-gradient(-50deg, rgba(14, 86, 110, 0.7) 1%, rgba(21, 32, 114, 0.7) 100%);
   }
 
 
@@ -62,4 +83,21 @@
     color: white;
     font-size: 1.3rem;
   }
+}
+
+.falcon-subheading {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.portal-root {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 0 8px;
 }

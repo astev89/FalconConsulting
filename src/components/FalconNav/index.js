@@ -5,6 +5,7 @@ import SideBar from 'components/SideBar'
 
 import './_falcon-nav.scss'
 const HeaderBackgroundHeight = 324
+const minimumShrinkValue = 64
 
 export default class FalconNav extends Component {
   constructor(props) {
@@ -12,35 +13,50 @@ export default class FalconNav extends Component {
 
     this.state = {
       expanded: false,
-      scrollPos: 0
+      scrollPos: 0,
+      changingWidth: 0,
+      opacityValue: 1
     }
   }
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
       const distanceFromTop = document.documentElement.scrollTop
-      const testValue = HeaderBackgroundHeight - distanceFromTop > 65 ? HeaderBackgroundHeight - distanceFromTop : 65
-      this.setState({scrollPos: testValue})
-      console.log(this.state.scrollPos)
+      const imageWidthValue = distanceFromTop < 160 ? distanceFromTop : 160
+      const imageShrinkValue = HeaderBackgroundHeight - distanceFromTop
+      const scrollHeightValue = imageShrinkValue > minimumShrinkValue ? imageShrinkValue : minimumShrinkValue
+
+      this.setState({
+        scrollPos: scrollHeightValue,
+        changingWidth: imageWidthValue,
+        opacityValue: 1 - (distanceFromTop / 160)
+      })
     })
   }
 
 
-
   render() {
-    const headerHeight = this.state.scrollPos ? `${this.state.scrollPos}px` : '324px'
+    const {scrollPos, expanded, changingWidth, opacityValue} = this.state
+    const headerHeight = scrollPos ? `${scrollPos}px` : '324px'
+    const underlayStyle = {height: headerHeight, width: `calc(100% - ${changingWidth}px)`}
 
     return [
       <header key="header" className="falcon-header" style={{height: headerHeight}}>
-        {/* <div className="falcon-header__underlay" /> */}
+        <div className="falcon-header__underlay" style={underlayStyle} />
         <nav className="falcon-header__nav">
-          <h1 className="falcon-header__nav-heading"><a href="/">Falcon Consulting</a></h1>
-          <div onClick={() => this.setState({expanded: true})}><HamburgerIcon /></div>
+          <h1 className="falcon-header__nav-heading">
+            <a href="/">
+              Falcon Consulting
+            </a>
+          </h1>
+          <div onClick={() => this.setState({expanded: true})}>
+            <HamburgerIcon />
+          </div>
         </nav>
-        <h2 className="falcon-header__heading-2">Let Your Investments Soar</h2>
-        <p className="falcon-header__subtext">Your all inclusive crypto currency mining solution.</p>
+        <div className="grad" />
       </header>,
-      <SideBar closeSideBar={() => this.setState({expanded: false})} expanded={this.state.expanded} />,
+      <div key="portal-heading" className="portal-root" style={{opacity: opacityValue}} />,
+      <SideBar key="sidebar" closeSideBar={() => this.setState({expanded: false})} expanded={expanded} />,
       this.props.children
     ]
   }
