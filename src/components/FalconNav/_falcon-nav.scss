@@ -24,7 +24,8 @@
     top: 0;
     left: 0;
     right: 0;
-    background-image: url(https://s3.amazonaws.com/cdn.falconconsulting.com/falconart.png);
+    // background-image: url(https://s3.amazonaws.com/cdn.falconconsulting.com/falconart.png);
+    background-image: url(https://s3.amazonaws.com/cdn.falconconsulting.com/miner.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -73,7 +74,7 @@
 
   &__subtext {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.2;
     margin-top: 8px;
     color: white;
@@ -95,7 +96,7 @@
 
 .portal-root {
   position: fixed;
-  top: 60px;
+  top: 48px;
   left: 0;
   right: 0;
   z-index: 2;

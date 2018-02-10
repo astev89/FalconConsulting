@@ -29,7 +29,7 @@ export default class FalconNav extends Component {
       this.setState({
         scrollPos: scrollHeightValue,
         changingWidth: imageWidthValue,
-        opacityValue: 1 - (distanceFromTop / 160)
+        opacityValue: 1 - (distanceFromTop / 120)
       })
     })
   }
@@ -42,7 +42,7 @@ export default class FalconNav extends Component {
 
     return [
       <header key="header" className="falcon-header" style={{height: headerHeight}}>
-        <div className="falcon-header__underlay" style={underlayStyle} />
+        <div className="falcon-header__underlay" style={{height: headerHeight}} />
         <nav className="falcon-header__nav">
           <h1 className="falcon-header__nav-heading">
             <a href="/">
