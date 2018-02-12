@@ -1,0 +1,81 @@
+.falcon-plans {
+  position: absolute;
+  top: 300px;
+  padding-top: 48px;
+  background-color: #f9f9f9;
+  height: 100%;
+  width: 100%;
+
+  &__tier {
+    border-radius: 3px;
+    background-color: white;
+    margin: 0 8px 32px;
+    padding-bottom: 16px;
+    box-shadow: 0 1px 8px rgba(114, 114, 114, 0.5);
+
+    &-limited {
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 1.3rem;
+      font-weight: bold;
+      height: 32px;
+      background: linear-gradient(to bottom, #182072 0%, #151972 60%, #0c293c 100%);
+      align-items: center;
+      border-radius: 3px 3px 0 0;
+    }
+
+    &-heading {
+      text-align: center;
+      padding-top: 36px;
+      & h1, p {
+        color: rgb(21, 32, 114);
+        font-weight: bold;
+      }
+
+      & h1 {
+        font-size: 2rem;
+        margin-bottom: 8px;
+      }
+
+      & p {
+        font-size: 1.4rem;
+      }
+    }
+
+    &-pricing {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 36px;
+
+      & .price {
+        font-size: 4rem;
+        font-weight: bold;
+        padding-bottom: 36px;
+      }
+
+      & .detail {
+        font-size: 1.4rem;
+        text-align: center;
+        line-height: 30px;
+      }
+    }
+
+    &-link {
+      display: flex;
+      justify-content: center;
+      border-radius: 3px;
+      width: 100px;
+      margin: 0 auto;
+      margin-top: 16px;
+      height: 40px;
+      width: 160px;
+      font-size: 1.6rem;
+      align-items: center;
+      color: white;
+      background-color: rgb(68, 196, 161);
+      box-shadow: 0 3px 4.7px .3px rgba(0,0,0,.23), 0 1px 6.86px .14px rgba(0,0,0,.15);
+    }
+  }
+}

@@ -5,8 +5,8 @@ import './_page-links.scss'
 
 const Links = [
   { to: '/', text: 'Home', active: [{ path: '/', exact: true }]},
-  { to: '/team', text: 'Team', active: [{ path: '/team' }] },
-  { to: '/plans', text: 'Plans', active: [{ path: '/plan' }] },
+  { to: '/team', text: 'About Us', active: [{ path: '/team' }] },
+  { to: '/plans', text: 'Plans', active: [{ path: '/plans' }] },
   { to: '/faq', text: 'FAQ', active: [{ path: '/faq' }] }
 ]
 

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import PortalComponent from 'components/PortalComponent'
+import FalconFooter from 'components/FalconFooter'
 import BitcoinMineIcon from 'images/BitcoinMineIcon'
 import ServerIcon from 'images/ServerIcon'
 import AltcoinsIcon from 'images/AltcoinsIcon'
@@ -58,6 +59,7 @@ export default class Home extends Component {
           <p className="falcon-home__subtext">
             Every 2nd and 4th friday of the month you receive a payout to the wallet of your choosing.
           </p>
+          <a className="falcon-home__link" href="/plans" onClick={(e) => e.stopPropagation()}>Our Plans</a>
         </section>
 
         <section className="falcon-home__content">
@@ -67,6 +69,8 @@ export default class Home extends Component {
             Schedule meet ups with the team once a month to go over the status of your investment and the market.
           </p>
         </section>
+
+        <FalconFooter />
 
         {/* Loading bar here: indicates order completion from investors */}
         {/* Ready to start generating your own wealth today? Sign up now  */}

@@ -37,4 +37,20 @@
       width: 70px;
     }
   }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 16px;
+    height: 40px;
+    width: 160px;
+    font-size: 1.6rem;
+    align-items: center;
+    color: white;
+    background-color: rgb(68, 196, 161);
+    box-shadow: 0 3px 4.7px .3px rgba(0,0,0,.23), 0 1px 6.86px .14px rgba(0,0,0,.15);
+  }
 }

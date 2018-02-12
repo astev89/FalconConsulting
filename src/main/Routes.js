@@ -16,7 +16,7 @@ export default function Routes() {
         <FalconNav>
           <Switch>
             <Route exact path="/" component={Home} />
-            {/* <Route path="/plans" component={Plans} /> */}
+            <Route path="/plans" component={Plans} />
             <Route path="/team" component={Team} />
             {/* <Route path="/ourpromise" component={OurPromise} /> */}
             <Route path="/faq" component={Faq} />

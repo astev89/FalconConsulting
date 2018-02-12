@@ -1,0 +1,40 @@
+button, .btn {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+
+  width: 100%;
+  cursor: pointer;
+  border-radius: 3px;
+  text-align: center;
+  border: 1px solid;
+  font-style: normal;
+  font-stretch: normal;
+  margin-bottom: 6px;
+  box-shadow: 0 3px 4.7px .3px rgba(0,0,0,.24),0 1px 6.86px .14px rgba(0,0,0,.16);
+
+  &.btn-sm {
+    height: 24px;
+    padding: 4px 8px;
+    // @media(min-width: $tablet) { height: 32px; }
+  }
+
+  &.btn-med {
+    height: 32px;
+    padding: 4px 8px;
+    // @media(min-width: $tablet) { height: 40px; }
+  }
+
+  &.btn-lg {
+    height: 40px;
+    padding: 8px 12px;
+    // @media(min-width: $tablet) { height: 48px; }
+  }
+
+  &[disabled] {
+    background-color: silver;
+    color: black;
+    cursor: not-allowed;
+    border-color: transparent;
+  }
+}
