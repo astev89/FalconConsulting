@@ -1,0 +1,93 @@
+.team {
+  position: absolute;
+  top: 300px;
+  padding-top: 48px;
+  background-color: #f9f9f9;
+
+  &-section {
+
+    &__about {
+      text-align: center;
+      font-size: 1.6rem;
+      padding: 0 12px;
+      line-height: 30px;
+    }
+
+    &__members {
+
+      section:first-child {
+        background-color: #152072;
+        p {
+          color: white;
+        }
+      }
+
+      section:nth-child(2) {
+        p {
+          color: #152072;
+        }
+      }
+
+      section:nth-child(3) {
+        background: linear-gradient(-50deg, rgba(14, 86, 110, 0.7) 1%, rgba(21, 32, 114, 0.7) 100%);
+        p {
+          color: white;
+        }
+      }  
+
+      & .member {
+        display: flex;
+        flex-direction: column;
+        padding: 16px 12px;
+        margin-top: 24px;
+
+        &-img {
+          border-radius: 50%;
+          background-repeat: no-repeat;
+          background-position: top;
+          background-size: cover;
+          height: 165px;
+          width: 165px;
+          margin: 0 auto;
+        }
+
+        &-details {
+          
+          &__name {
+            font-size: 2rem;
+            font-weight: bold;
+            padding-top: 16px;
+          }
+
+          &__title {
+            font-size: 1.8rem;
+            padding: 8px 0;
+          }
+
+          &__desc {
+            font-size: 1.4rem;
+            line-height: 20px;
+            padding-bottom: 8px;
+          }
+        }
+      }
+    }
+  
+  }
+
+  & .mailicon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 4px;
+    background-color: #d9534f;
+
+    & svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

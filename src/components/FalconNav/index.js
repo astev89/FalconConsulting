@@ -29,7 +29,7 @@ export default class FalconNav extends Component {
       this.setState({
         scrollPos: scrollHeightValue,
         changingWidth: imageWidthValue,
-        opacityValue: 1 - (distanceFromTop / 120)
+        opacityValue: 1 - (distanceFromTop / 120) >= 0 ? 1 - (distanceFromTop / 120) : 0
       })
     })
   }
