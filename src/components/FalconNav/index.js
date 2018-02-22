@@ -21,7 +21,7 @@ export default class FalconNav extends Component {
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-      const distanceFromTop = document.documentElement.scrollTop
+      const distanceFromTop = document.scrollingElement.scrollTop
       const imageWidthValue = distanceFromTop < 160 ? distanceFromTop : 160
       const imageShrinkValue = HeaderBackgroundHeight - distanceFromTop
       const scrollHeightValue = imageShrinkValue > minimumShrinkValue ? imageShrinkValue : minimumShrinkValue
