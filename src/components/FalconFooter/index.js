@@ -7,7 +7,9 @@ export default function FalconFooter(props) {
       <p className="falcon-footer__text">
         Invest with Falcon Consulting today!
       </p>
-      <a href="mailto:smorales@falconconsulting.co?Subject=Investment%20interest" target="_top">
+      <a href="mailto:smorales@falconconsulting.co?Subject=Investment%20interest" target="_top" 
+        className="falcon-footer__link"
+      >
         Reach Out Now!
       </a>
     </footer>

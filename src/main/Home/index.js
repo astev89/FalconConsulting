@@ -32,8 +32,9 @@ export default class Home extends Component {
           <h1 className="falcon-home__heading">Start Crypto Mining Today!</h1>
           <div className="falcon-home__icon"><BitcoinMineIcon /></div>
           <p className="falcon-home__subtext">
-            At Falcon Consulting we provide one of the easiest, smartest and safest ways to enter the cryptocurrency space.
+            At Falcon Consulting we provide one of the easiest, smartest and safest ways to enter the cryptocurrency space: Mining.
           </p>
+          <a className="falcon-home__link" href="/our-offer" onClick={(e) => e.stopPropagation()}>Learn More</a>
         </section>
 
         <section className="falcon-home__content">

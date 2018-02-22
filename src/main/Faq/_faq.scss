@@ -1,0 +1,23 @@
+.faq {
+  position: absolute;
+  top: 300px;
+  padding-top: 48px;
+  background-color: #f9f9f9;
+
+  &-block {
+    padding: 0 8px;
+    margin-bottom: 32px;
+
+    &__heading {
+      font-size: 2rem;
+      padding-bottom: 8px;
+    }
+
+    &__text {
+      font-size: 1.4rem;
+      line-height: 20px;
+    }
+  }
+
+
+}

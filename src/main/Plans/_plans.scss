@@ -78,4 +78,14 @@
       box-shadow: 0 3px 4.7px .3px rgba(0,0,0,.23), 0 1px 6.86px .14px rgba(0,0,0,.15);
     }
   }
+  
+  & .contract {
+    padding: 0 8px;
+
+    &-header {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+  }
+
 }

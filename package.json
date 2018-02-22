@@ -4,8 +4,10 @@
   "description": "Falcon Consulting Web Page",
   "main": "index.js",
   "scripts": {
-    "start": "npx webpack-dev-server --open",
-    "build": "npx webpack -p"
+    "start": "npm run build ; node index.js",
+    "test": "npx webpack-dev-server --open --config webpack.dev.js",
+    "build": "npm i && npx webpack --config webpack.prod.js -p",
+    "postinstall": "webpack -p --config ./webpack.prod.js --progress"
   },
   "author": "Aaron Stevens",
   "license": "ISC",
@@ -26,6 +28,7 @@
     "classnames": "^2.2.5",
     "css-loader": "^0.28.7",
     "express": "^4.16.2",
+    "express-static-gzip": "^0.3.2",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.7.2",

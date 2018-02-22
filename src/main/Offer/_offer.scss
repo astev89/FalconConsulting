@@ -1,0 +1,32 @@
+.offer {
+  position: absolute;
+  top: 300px;
+  padding-top: 48px;
+  background-color: #f9f9f9;
+
+  &-block {
+    padding: 0 12px 24px;
+
+    &__heading {
+      font-size: 2rem;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+
+    &__text {
+      font-size: 1.4rem;
+      line-height: 20px;
+      text-align: center;
+      margin-top: 12px;
+    }
+  }
+
+
+  &-promise {
+    font-size: 1.6rem;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 8px;
+  }
+}

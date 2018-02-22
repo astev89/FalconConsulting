@@ -49,8 +49,10 @@ export default function Plans() {
       {buildTier('Tier 2', 'Substantial', '$100,000', '@ 30% return of respective revenue')}
       {buildTier('Tier 3', 'Large', '$250,000', '@ 35% return of respective revenue')}
       {buildTier('Tier 4', 'X Large', 'Email For Details', 'Custom respective return')}
-      <div id="contract">
-        <p>Contract Information</p>
+      <div className="contract" id="contract">
+        <p className="contract-header">
+          Contract Information
+        </p>
       </div>
     </main>
   )

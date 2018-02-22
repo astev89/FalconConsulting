@@ -1,4 +1,5 @@
 const path = require('path')
+const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
@@ -48,6 +49,11 @@ module.exports = {
   },
   target: 'web',
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify('production')
+      }
+    }),
     new HtmlWebpackPlugin({
       filename: './index.html',
       template: './template.js',
@@ -55,17 +61,6 @@ module.exports = {
       inject: 'body'
     }),
     ExtractCSS
-  ],
-  devtool: 'source-map',
-  devServer: {
-    contentBase: path.join(__dirname, 'dist'),
-    publicPath: '/',
-    port: 8000,
-    historyApiFallback: {
-      rewrites: [
-          // shows favicon
-          { from: /favicon.ico/, to: './favicon.ico' }
-      ]
-    },
-  }
+  ]
 }
+
