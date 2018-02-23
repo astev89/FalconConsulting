@@ -28,14 +28,17 @@ export default class Offer extends Component {
           </h3> 
           <hr/>
           <p className="offer-block__text">
-            At Falcon Consulting we take an approach to investing in mining that has not been done before.
-            Unlike other cloud mining solutions where the investor simply rents hardware that he/she never sees and has to base
-            so much of the decision on blind trust, we use your investment to purchase hardware that belongs to YOU! Throughout the duration
-            of your contract (which does not begin until your hardware arrives at our facility and is set up for you) you have 24 / 7 access 
-            to a personal web dashboard that displays all of the statistics of your hardware in real time.
-            This inludes solutions per second, temperatures, amount you have mined, etc. In addition to that, we cover all of your maintenance
+            At Falcon Consulting our approach to investing in mining is different from traditional tactics. Other cloud mining solutions want you to 
+            rent the hardware that you never get to see, and have to base so much of the decision on blind trust. At Falcon Consulting use your investment 
+            to purchase hardware that belongs to YOU! 
+
+            We offer a generous buy back program, in purchasing the hardware back from you. First round investors will recieve 75% of 
+            their investment returned back to them buy the end of their contract. We have chosen this business plan to better insure a safer investment 
+            for our investors.
+            
+            {/*This inludes solutions per second, temperatures, amount you have mined, etc. In addition to that, we cover all of your maintenance
             and repair costs at no additional expense to you and even offer a buy back program on your purchased hardware to help you hit your R.O.I even
-            faster!
+            faster! */}
           </p> 
         </div> 
 
@@ -49,7 +52,22 @@ export default class Offer extends Component {
             We are 100% committed to delivering a profitable investment to all of our customers. The hardware you purchase through us is absolutely 
             top of the line which ensures a longer profitablity for the duration of your contract. All of the details regarding the hardware are 
             presented to our investors upon meeting with our team.
+
+            HERE is OUR ESTIMATED HASHING POWER PER PLAN:
+            <ul> 
+              <li> Tier 1 $15,000
+                700 MH/s
+              </li>
+              <li> Tier 2 $100,000
+                5,700 MH/s
+              </li>
+              <li> Tier 3 $250,000
+                14,000 MH/s
+              </li>
+            </ul>
+          we always encourage our customers to do their own research and use <a href="https://www.cryptocompare.com/mining/calculator/eth"> mining profitability calculators to determine ROI </a>
           </p> 
+
         </div> 
        
         <div className="offer-block">
@@ -60,8 +78,7 @@ export default class Offer extends Component {
           <p className="offer-block__text">
             When you enter into a contract with us you can forget about all the headaches that come with setting up and maintenancing 
             mining rigs; we take care of everything for you. No worrying about loud, hot machines running up your energy bill or learning the
-            complexities mining software. We even offer a personal web panel that you can use to keep track of all your hardware stats and 
-            mined currency. 
+            complexities mining software. We even offer a personal web panel that you can use to keep track of all your hardware stats.
           </p> 
         </div> 
 
