@@ -34,11 +34,9 @@ export default class Offer extends Component {
 
             We offer a generous buy back program, in purchasing the hardware back from you. First round investors will recieve 75% of 
             their investment returned back to them buy the end of their contract. We have chosen this business plan to better insure a safer investment 
-            for our investors.
+            model for our investors.
             
-            {/*This inludes solutions per second, temperatures, amount you have mined, etc. In addition to that, we cover all of your maintenance
-            and repair costs at no additional expense to you and even offer a buy back program on your purchased hardware to help you hit your R.O.I even
-            faster! */}
+            {/*This inludes */}
           </p> 
         </div> 
 
@@ -79,6 +77,10 @@ export default class Offer extends Component {
           When you enter into a contract with us you can forget about all the headaches that come with setting up and maintaining your hardware; we 
           take care of everything for you. No worrying about loud, hot machines running up your energy bill or learning the complexities of mining 
           software. Falcon Consulting has you covered!
+
+          Falcon Consulting also provides real time data on your hardware including solutions per second, temperatures, amount you have mined, etc. In addition to that, we cover all of your maintenance
+          and repair costs at no additional expense to you and even offer a buy back program on your purchased hardware to help you hit your R.O.I even
+          faster! 
           </p> 
         </div> 
 
