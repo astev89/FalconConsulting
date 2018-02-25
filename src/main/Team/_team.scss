@@ -33,7 +33,7 @@
         p {
           color: white;
         }
-      }  
+      }
 
       & .member {
         display: flex;
@@ -52,7 +52,12 @@
         }
 
         &-details {
-          
+          @media(min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+
           &__name {
             font-size: 2rem;
             font-weight: bold;
@@ -68,11 +73,16 @@
             font-size: 1.4rem;
             line-height: 20px;
             padding-bottom: 8px;
+
+            @media(min-width: 768px) {
+              max-width: 400px;
+              text-align: center;
+            }
           }
         }
       }
     }
-  
+
   }
 
   & .mailicon {
