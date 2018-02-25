@@ -53,13 +53,13 @@ export default class Offer extends Component {
 
           HERE is OUR ESTIMATED HASHING POWER PER PLAN:
             <ul> 
-              <li> Tier 1 $15,000
+              <li> Tier 1 $15,000:
                 700 MH/s
               </li>
-              <li> Tier 2 $100,000
+              <li> Tier 2 $100,000:
                 5,700 MH/s
               </li>
-              <li> Tier 3 $250,000
+              <li> Tier 3 $250,000:
                 14,000 MH/s
               </li>
             </ul>
@@ -77,10 +77,10 @@ export default class Offer extends Component {
           When you enter into a contract with us you can forget about all the headaches that come with setting up and maintaining your hardware; we 
           take care of everything for you. No worrying about loud, hot machines running up your energy bill or learning the complexities of mining 
           software. Falcon Consulting has you covered!
-
-          We also provide the means to view information of your hardware in realtime including solutions per second, temperatures, amount you have mined and more. 
-          In addition to that, we cover all of your maintenance and repair costs at no additional expense to you and even offer a buy back program on your purchased 
-          hardware to help you hit your R.O.I even faster! 
+          <br/>
+          Falcon Consulting provides the means to view data of your hardware in realtime including solutions per second, temperatures, amount you have
+          mined and more. In addition to that, we cover all of your maintenance and repair costs at no additional expense to you and even offer a buy
+          back program on your purchased hardware to help you hit your R.O.I even faster! 
           </p> 
         </div> 
 
@@ -102,12 +102,11 @@ export default class Offer extends Component {
           </h3>
           <hr/>
           <p className="offer-block__text">
-            Most of our initial investors have worked with one of our tem members in the past and have trusted our expertise to give them results. 
-            This same foundation of trust is the pillar of Falcon Consulting. 
-            We value each and every one of our investors and stay 100% committed to complete transparency with them. 
-            If you feel that you need further explanation of mining or blockchain technology, 
-            the impressive value attached to it or how it will revolutionize the future, 
-            our team will be more than happy to consult you in person or virtually through Google Hangouts.
+            Most of our initial investors have worked with one of our team members in the past and have trusted our expertise to give them results. 
+            This same foundation of trust is the pillar of Falcon Consulting. We value each and every one of our investors and stay 100% committed to 
+            complete transparency with them. If you feel that you need further explanation of mining, blockchain technology, or the impressive value 
+            attached to it and how it will revolutionize the future, our team will be more than happy to consult you in person or virtually through 
+            Google Hangouts.
           </p> 
         </div>
 
