@@ -1,6 +1,6 @@
 {
   "name": "falcon-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Falcon Consulting Web Page",
   "main": "index.js",
   "scripts": {
