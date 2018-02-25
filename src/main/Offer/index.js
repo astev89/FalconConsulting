@@ -29,7 +29,7 @@ export default class Offer extends Component {
           <hr/>
           <p className="offer-block__text">
             At Falcon Consulting our approach to investing in mining is different from traditional tactics. Other cloud mining solutions want you to 
-            rent the hardware that you never get to see, and have to base so much of the decision on blind trust. At Falcon Consulting use your investment 
+            rent the hardware that you never get to see, and have to base so much of the decision on blind trust. At Falcon Consulting we use your investment 
             to purchase hardware that belongs to YOU! 
 
             We offer a generous buy back program, in purchasing the hardware back from you. First round investors will recieve 75% of 
@@ -49,11 +49,11 @@ export default class Offer extends Component {
           </h3> 
           <hr/>
           <p className="offer-block__text">
-            We are 100% committed to delivering a profitable investment to all of our customers. The hardware you purchase through us is absolutely 
-            top of the line which ensures a longer profitablity for the duration of your contract. All of the details regarding the hardware are 
-            presented to our investors upon meeting with our team.
+          We are 100% committed to delivering a VERY profitable investment to all of our customers. The hardware you purchase through us is absolutely 
+          top of the line which ensures consistency for the duration of your contract. All of the details regarding the hardware are presented to our 
+          investors upon meeting with our team.
 
-            HERE is OUR ESTIMATED HASHING POWER PER PLAN:
+          HERE is OUR ESTIMATED HASHING POWER PER PLAN:
             <ul> 
               <li> Tier 1 $15,000
                 700 MH/s
@@ -76,9 +76,9 @@ export default class Offer extends Component {
           </h3> 
           <hr/>
           <p className="offer-block__text">
-            When you enter into a contract with us you can forget about all the headaches that come with setting up and maintenancing 
-            mining rigs; we take care of everything for you. No worrying about loud, hot machines running up your energy bill or learning the
-            complexities mining software. We even offer a personal web panel that you can use to keep track of all your hardware stats.
+          When you enter into a contract with us you can forget about all the headaches that come with setting up and maintaining your hardware; we 
+          take care of everything for you. No worrying about loud, hot machines running up your energy bill or learning the complexities of mining 
+          software. Falcon Consulting has you covered!
           </p> 
         </div> 
 
@@ -105,7 +105,7 @@ export default class Offer extends Component {
             We value each and every one of our investors and stay 100% committed to complete transparency with them. 
             If you feel that you need further explanation of mining or blockchain technology, 
             the impressive value attached to it or how it will revolutionize the future, 
-            our team will be more than happy to consult you in person or virtually through Google.
+            our team will be more than happy to consult you in person or virtually through Google Hangouts.
           </p> 
         </div>
 
