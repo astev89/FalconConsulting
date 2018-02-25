@@ -78,9 +78,9 @@ export default class Offer extends Component {
           take care of everything for you. No worrying about loud, hot machines running up your energy bill or learning the complexities of mining 
           software. Falcon Consulting has you covered!
 
-          Falcon Consulting also provides real time data on your hardware including solutions per second, temperatures, amount you have mined, etc. In addition to that, we cover all of your maintenance
-          and repair costs at no additional expense to you and even offer a buy back program on your purchased hardware to help you hit your R.O.I even
-          faster! 
+          We also provide the means to view information of your hardware in realtime including solutions per second, temperatures, amount you have mined and more. 
+          In addition to that, we cover all of your maintenance and repair costs at no additional expense to you and even offer a buy back program on your purchased 
+          hardware to help you hit your R.O.I even faster! 
           </p> 
         </div> 
 
