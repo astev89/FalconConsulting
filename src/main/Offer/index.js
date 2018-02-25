@@ -33,8 +33,8 @@ export default class Offer extends Component {
             to purchase hardware that belongs to YOU! 
 
             We offer a generous buy back program, in purchasing the hardware back from you. First round investors will recieve 75% of 
-            their investment returned back to them buy the end of their contract. We have chosen this business plan to better insure a safer investment 
-            model for our investors.
+            their investment returned back to them buy the end of their contract. We have chosen this business model to better insure a safer investment 
+            for our investors.
             
             {/*This inludes */}
           </p> 
