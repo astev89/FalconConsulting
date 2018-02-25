@@ -19,7 +19,7 @@ const members = [
     email: 'astevens@falconconsulting.co'
   },
   {
-    imageUrl: '',
+    imageUrl: 'https://s3.amazonaws.com/cdn.falconconsulting.com/JoshProfile.jpg',
     name: 'Josh Jones',
     title: 'COO',
     desc: 'In charge of hardware evaluations/optimizations, development, planning and technical analysis.',

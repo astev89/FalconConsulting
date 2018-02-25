@@ -46,12 +46,19 @@ export default function Plans() {
         </p>
       </PortalComponent>
       {buildTier('Tier 1', 'Small', '$15,000', '@ 25% return of respective revenue')}
-      {buildTier('Tier 2', 'Substantial', '$100,000', '@ 30% return of respective revenue')}
-      {buildTier('Tier 3', 'Large', '$250,000', '@ 35% return of respective revenue')}
+      {buildTier('Tier 2', 'Substantial', '$75,000', '@ 30% return of respective revenue')}
+      {buildTier('Tier 3', 'Large', '$200,000', '@ 35% return of respective revenue')}
       {buildTier('Tier 4', 'X Large', 'Email For Details', 'Custom respective return')}
       <div className="contract" id="contract">
         <p className="contract-header">
           Contract Information
+         
+          <br/> no maintenance fees
+          <br/> no hardware setup
+          <br/> no excessive energy bill
+          <br/> no out of control heating problems
+          <br/> customer owns all the hardware for the duration of the contract. By the end of the your 2 year contract falcon consulting will
+          purchased your hardware back from you at 75% cost. 
         </p>
       </div>
     </main>
