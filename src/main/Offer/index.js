@@ -28,13 +28,13 @@ export default class Offer extends Component {
           </h3>
           <hr/>
           <p className="offer-block__text">
-            At Falcon Consulting our approach to investing in mining is different from traditional tactics. Other cloud mining solutions want you to
-            rent hardware that you never get to see, and base so much of your decision on blind trust. At Falcon Consulting we use your investment
-            to purchase hardware that belongs to YOU!
+            At Falcon Consulting our approach to investing in mining is unique compared to traditional methods. Other cloud mining solutions want you to
+            rent hardware that you never get to see, and restrict your decision to blind trust. At Falcon Consulting we utilize your investment
+            to obtain hardware that belongs to YOU!
 
-            Furthermore, we offer a generous buy back program to purchase the hardware back from you. First round investors will recieve 75% of
-            their investment returned back to them by the end of their contract. We have chosen this business plan to better insure a safer investment
-            for our investors.
+            We have a low risk and lucrative business model to not only insure a low risk for our investors, but to maximize their ROI.
+            We offer a generous buy back program in which we purchase hardware back from you.
+            First round of Investors (funds due by 03/2/2018 or 3/8*) will receive back 75% of their investment at the end of their 2 - year term.
           </p>
         </div>
 
@@ -51,13 +51,16 @@ export default class Offer extends Component {
           </p>
           <p>HERE is OUR ESTIMATED HASHING POWER PER PLAN:</p>
           <ul>
-            <li> Tier 1 $15,000
+            <li>
+              Tier 1 $15,000:
               700 MH/s
             </li>
-            <li> Tier 2 $100,000
+            <li>
+              Tier 2 $100,000:
               5,700 MH/s
             </li>
-            <li> Tier 3 $250,000
+            <li>
+              Tier 3 $250,000:
               14,000 MH/s
             </li>
           </ul>

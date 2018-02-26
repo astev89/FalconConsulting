@@ -52,13 +52,13 @@ export default function Plans() {
       <div className="contract" id="contract">
         <p className="contract-header">
           Contract Information
-         
+
           <br/> no maintenance fees
           <br/> no hardware setup
           <br/> no excessive energy bill
-          <br/> no out of control heating problems
-          <br/> customer owns all the hardware for the duration of the contract. By the end of the your 2 year contract falcon consulting will
-          purchased your hardware back from you at 75% cost. 
+          <br/> NO cognitive overhead
+          <br/> Customer owns all the hardware for the duration of the contract. By the end of the your 2 year contract falcon consulting will
+          purchased your hardware back from you at 75% cost.
         </p>
       </div>
     </main>
