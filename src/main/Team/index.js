@@ -6,8 +6,8 @@ import './_team.scss'
 const members = [
   {
     imageUrl: 'https://s3.amazonaws.com/cdn.falconconsulting.com/stevenProfile.JPG',
-    name: 'Steven Morales', 
-    title: 'CEO', 
+    name: 'Steven Morales',
+    title: 'CEO',
     desc: 'Works directly with our domestic and international investors and is in charge of policy-making as well as implementation of operations.',
     email: 'smorales@falconconsulting.co'
   },
@@ -22,7 +22,7 @@ const members = [
     imageUrl: 'https://s3.amazonaws.com/cdn.falconconsulting.com/JoshProfile.jpg',
     name: 'Josh Jones',
     title: 'COO',
-    desc: 'In charge of hardware evaluations/optimizations, development, planning and technical analysis.',
+    desc: 'In charge of hardware evaluations/optimizations, planning and technical analysis.',
     email: 'jjones@falconconsulting.co'
   }
 ]
@@ -33,14 +33,14 @@ export default class Team extends Component {
 
     this.state = {}
   }
-  
+
   buildMemberSection = (image, name, title, desc, email) => (
     <section className="member">
       <div className="member-img" style={{'background-image': `linear-gradient(-50deg, rgba(14, 86, 110, 0.2) 1%, rgba(21, 32, 114, 0.4) 100%), url(${image})`}} />
       <div className="member-details">
         <p className="member-details__name">{name}</p>
-        <p className="member-details__title">{title}</p> 
-        <p className="member-details__desc">{desc}</p> 
+        <p className="member-details__title">{title}</p>
+        <p className="member-details__desc">{desc}</p>
         <a href={`mailto:${email}?Subject=Invesment%20interest`} target="_top" className="mailicon">
           <MailIcon />
         </a>
@@ -62,7 +62,7 @@ export default class Team extends Component {
         </PortalComponent>
         <section className="team-section">
           <p className="team-section__about">
-            The Falcon Consulting team came together in early 2017. 
+            The Falcon Consulting team came together in early 2017.
             We are group of tech enthusiasts, programmers and marketers that have a passion for the innovation of blockchain technology.
             Our team is excited to offer our services and knowledge to investors and enthusiasts alike.
           </p>
