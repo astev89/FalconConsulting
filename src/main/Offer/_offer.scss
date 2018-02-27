@@ -19,6 +19,22 @@
       line-height: 20px;
       text-align: center;
       margin-top: 12px;
+
+      &-title {
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 12px 0;
+      }
+    }
+
+    &__list {
+      text-align: center;
+
+      &-item {
+        font-weight: bold;
+        font-size: 2rem;
+      }
     }
   }
 
