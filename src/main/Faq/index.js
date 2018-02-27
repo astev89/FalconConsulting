@@ -26,9 +26,9 @@ export default class Faq extends Component {
             Why invest now?
           </h3>
           <p className="faq-block__text">
-            The sooner you invest the sooner you can start mining and generating crypto!
-            This means you get more for you buck in terms of difficulty level and current market value of the coin
-            being mined. Early Investors also have smaller investment requirements.
+            The sooner you invest, the sooner you can start mining and generating crypto!
+            This means you get more out of your investment in terms of difficulty level and current market value of the coin being mined.
+            Early Investors also have smaller investment requirements.
           </p>
         </div>
 
@@ -115,16 +115,6 @@ export default class Faq extends Component {
           <p className="faq-block__text">
             Crypto currencies are digital currencies that vary in functionality in which encryption techniques are used to control the generation
             of coins. This new form of currency operates independently from any trust or central banking system.
-          </p>
-        </div>
-
-        <div className="faq-block">
-          <h3 className="faq-block__heading">
-            What is difficulty level?
-          </h3>
-          <p className="faq-block__text">
-            Difficulty is a measurement of how difficult it is to find a hash or solution below a given target. Difficulty level is ever changing and can
-            increase or decrease over time.
           </p>
         </div>
 
