@@ -6,12 +6,21 @@
   height: 100%;
   width: 100%;
 
+  section:first-child {
+    margin-top: 8px;
+  }
+
   &__tier {
     border-radius: 3px;
     background-color: white;
     margin: 0 8px 32px;
     padding-bottom: 16px;
     box-shadow: 0 1px 8px rgba(114, 114, 114, 0.5);
+
+    @media(min-width: 768px) {
+      max-width: 700px;
+      margin: 32px auto;
+    }
 
     &-limited {
       display: flex;
@@ -53,6 +62,7 @@
         font-size: 4rem;
         font-weight: bold;
         padding-bottom: 36px;
+        text-align: center;
       }
 
       & .detail {
@@ -76,11 +86,18 @@
       color: white;
       background-color: rgb(68, 196, 161);
       box-shadow: 0 3px 4.7px .3px rgba(0,0,0,.23), 0 1px 6.86px .14px rgba(0,0,0,.15);
+      font-weight: bold;
     }
   }
-  
+
   & .contract {
-    padding: 0 8px;
+    padding: 16px 8px;
+    margin: 0 8px 32px !important;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0 1px 8px rgba(114, 114, 114, 0.5);
 
     &-header {
       font-size: 3rem;

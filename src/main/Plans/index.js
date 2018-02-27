@@ -42,25 +42,29 @@ export default function Plans() {
         </h2>
         <p className="falcon-header__subtext">
           Our plans range from Tier 1 to Tier 4.
-          <br/> All plans include a 6 month buy back period.
+           All plans include a 6 month buy back period.
         </p>
       </PortalComponent>
+
       {buildTier('Tier 1', 'Small', '$15,000', '@ 25% return of respective revenue')}
       {buildTier('Tier 2', 'Substantial', '$75,000', '@ 30% return of respective revenue')}
       {buildTier('Tier 3', 'Large', '$200,000', '@ 35% return of respective revenue')}
       {buildTier('Tier 4', 'X Large', 'Email For Details', 'Custom respective return')}
-      <div className="contract" id="contract">
-        <p className="contract-header">
-          Contract Information
 
-          <br/> no maintenance fees
-          <br/> no hardware setup
-          <br/> no excessive energy bill
-          <br/> NO cognitive overhead
-          <br/> Customer owns all the hardware for the duration of the contract. By the end of the your 2 year contract falcon consulting will
-          purchased your hardware back from you at 75% cost.
-        </p>
-      </div>
+      <section className="contract" id="contract">
+        <p className="contract-header">Contract Information</p>
+        <ul className="contract-list">
+          <li className="contract-list__item">no maintenance fees</li>
+          <li className="contract-list__item">no hardware setup</li>
+          <li className="contract-list__item">no excessive energy bill</li>
+          <li className="contract-list__item">NO cognitive overhead</li>
+          <li className="contract-list__item">
+            Customer owns all the hardware for the duration of the contract. By the end of the your 2 year contract falcon consulting will
+            purchased your hardware back from you at 75% cost.
+          </li>
+        </ul>
+
+      </section>
     </main>
   )
 }
