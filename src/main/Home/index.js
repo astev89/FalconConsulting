@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import AOS from 'aos'
 import PortalComponent from 'components/PortalComponent'
 import FalconFooter from 'components/FalconFooter'
 import BitcoinMineIcon from 'images/BitcoinMineIcon'
@@ -19,7 +20,7 @@ const homeContent = [
     header: 'Your Hardware Is Running 24 / 7',
     icon: <ServerIcon />,
     mainText: 'No need to worry about the cognitive overhead and rising costs of building and maintaining your own rigs. We take care of everything for you.',
-    link: null 
+    link: null
   },
   {
     header: 'Mine Alternative Crypto Currencies',
@@ -37,7 +38,7 @@ const homeContent = [
     header: 'Monthly consultations in person or online',
     icon: <HandshakeIcon />,
     mainText: 'Schedule meet ups with the team once a month to go over the status of your investment and the market.',
-    link: null 
+    link: null
   }
 ]
 
@@ -48,9 +49,13 @@ export default class Home extends Component {
     this.state = {}
   }
 
-  sectionBlockBuilder = (header, icon, mainText, anchor) => {
+  componentDidMount() {
+    AOS.init({duration: 800})
+  }
+
+  sectionBlockBuilder = (key, header, icon, mainText, anchor) => {
     return (
-      <section className="falcon-home__content">
+      <section key={key} className="falcon-home__content" data-aos="fade-up">
         <h1 className="falcon-home__heading">{header}</h1>
         <div className="falcon-home__icon">{icon}</div>
         <p className="falcon-home__subtext">
@@ -58,11 +63,11 @@ export default class Home extends Component {
         </p>
         {anchor || null}
       </section>
-    )     
+    )
   }
 
   mapSectionBlocks = (buildFunc, data) => {
-    return data.map((item) => buildFunc(item.header, item.icon, item.mainText, item.link)) 
+    return data.map((item, i) => buildFunc(i, item.header, item.icon, item.mainText, item.link))
   }
 
   render() {
