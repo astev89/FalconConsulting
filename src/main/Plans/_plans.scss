@@ -99,9 +99,32 @@
     border-radius: 3px;
     box-shadow: 0 1px 8px rgba(114, 114, 114, 0.5);
 
+    @media(min-width: 768px) {
+      padding: 16px 0;
+      margin: 32px auto !important;
+    }
+
     &-header {
       font-size: 3rem;
       font-weight: bold;
+    }
+
+    &-list {
+      &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 32px 12px;
+        line-height: 30px;
+
+        & svg {
+          height: 32px;
+          width: 32px;
+          margin-right: 12px;
+        }
+      }
     }
   }
 

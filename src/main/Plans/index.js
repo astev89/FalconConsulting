@@ -1,5 +1,9 @@
 import React from 'react'
 import PortalComponent from 'components/PortalComponent'
+import MaintenanceIcon from 'images/MaintenanceIcon'
+import CognitiveIcon from 'images/CognitiveIcon'
+import HardwareServiceIcon from 'images/HardwareServiceIcon'
+import PlugIcon from 'images/PlugIcon'
 
 import './_plans.scss'
 
@@ -54,12 +58,25 @@ export default function Plans() {
       <section className="contract" id="contract">
         <p className="contract-header">Contract Information</p>
         <ul className="contract-list">
-          <li className="contract-list__item">no maintenance fees</li>
-          <li className="contract-list__item">no hardware setup</li>
-          <li className="contract-list__item">no excessive energy bill</li>
-          <li className="contract-list__item">NO cognitive overhead</li>
           <li className="contract-list__item">
-            Customer owns all the hardware for the duration of the contract. By the end of the your 2 year contract falcon consulting will
+            <MaintenanceIcon />
+            No maintenance fees
+          </li>
+          <li className="contract-list__item">
+            <HardwareServiceIcon />
+            No hardware setup
+          </li>
+          <li className="contract-list__item">
+            <PlugIcon />
+            No excessive energy bill
+          </li>
+          <li className="contract-list__item">
+            <CognitiveIcon />
+            No cognitive overhead
+          </li>
+          <li className="contract-list__item">
+            *Customer owns all the hardware for the duration of the contract.
+            By the end of the your 2 year contract, falcon consulting will have
             purchased your hardware back from you at 75% cost.
           </li>
         </ul>
