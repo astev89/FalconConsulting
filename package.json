@@ -1,6 +1,6 @@
 {
   "name": "falcon-web",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "engines": {
     "node": "8.2.1"
   },
@@ -10,7 +10,7 @@
     "start": "npm run build ; node index.js",
     "test": "npx webpack-dev-server --open --config webpack.dev.js",
     "build": "npm i && npx webpack --config webpack.prod.js -p",
-    "postinstall": "webpack --config ./webpack.prod.js --progress"
+    "postinstall": "webpack -p --config ./webpack.prod.js --progress"
   },
   "author": "Aaron Stevens",
   "license": "ISC",
