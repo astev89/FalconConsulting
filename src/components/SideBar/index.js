@@ -7,11 +7,12 @@ import './_side-bar.scss'
 
 
 export default function SideBar({closeSideBar, expanded}) {
-  return (
-    <div className={classNames('side-bar', {expanded})}>
+  return [
+    <div key="sidebar" className={classNames('side-bar', {expanded})}>
       <PageLinks onClick={closeSideBar}>
         <CloseIcon />
       </PageLinks>
-    </div>
-  )
+    </div>,
+    <div key="underlay" className={classNames('underlay', {isActive: expanded})} />
+  ]
 }
