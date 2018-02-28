@@ -1,6 +1,9 @@
 {
   "name": "falcon-web",
   "version": "1.0.1",
+  "engines": {
+    "node": "8.2.1"
+  },
   "description": "Falcon Consulting Web Page",
   "main": "index.js",
   "scripts": {

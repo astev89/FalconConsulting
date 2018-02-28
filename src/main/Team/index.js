@@ -12,14 +12,14 @@ const members = [
     email: 'smorales@falconconsulting.co'
   },
   {
-    imageUrl: 'https://s3.amazonaws.com/cdn.falconconsulting.com/AaronProfile.jpg',
+    imageUrl: 'https://s3.amazonaws.com/cdn.falconconsulting.com/aaronProfile.jpg',
     name: 'Aaron Stevens',
     title: 'Lead Software Engineer',
     desc: 'Handles our network infrastructure and product development.',
     email: 'astevens@falconconsulting.co'
   },
   {
-    imageUrl: 'https://s3.amazonaws.com/cdn.falconconsulting.com/JoshProfile.jpg',
+    imageUrl: 'https://s3.amazonaws.com/cdn.falconconsulting.com/joshProfile.jpg',
     name: 'Josh Jones',
     title: 'COO',
     desc: 'In charge of hardware evaluations/optimizations, planning and technical analysis.',

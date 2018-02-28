@@ -1,5 +1,9 @@
 import React from 'react'
 import PortalComponent from 'components/PortalComponent'
+import MaintenanceIcon from 'images/MaintenanceIcon'
+import CognitiveIcon from 'images/CognitiveIcon'
+import HardwareServiceIcon from 'images/HardwareServiceIcon'
+import PlugIcon from 'images/PlugIcon'
 
 import './_plans.scss'
 
@@ -42,13 +46,15 @@ export default function Plans() {
         </h2>
         <p className="falcon-header__subtext">
           Our plans range from Tier 1 to Tier 4.
-          <br/> All plans include a 6 month buy back period.
+           All plans include a 6 month buy back period.
         </p>
       </PortalComponent>
+
       {buildTier('Tier 1', 'Small', '$15,000', '@ 25% return of respective revenue')}
       {buildTier('Tier 2', 'Substantial', '$75,000', '@ 30% return of respective revenue')}
       {buildTier('Tier 3', 'Large', '$200,000', '@ 35% return of respective revenue')}
       {buildTier('Tier 4', 'X Large', 'Email For Details', 'Custom respective return')}
+<<<<<<< HEAD
       <div className="contract" id="contract">
         <p className="contract-header">
           Contract Information
@@ -62,6 +68,36 @@ export default function Plans() {
           purchased your hardware back from you at 75% cost. 
         </p>
       </div>
+=======
+
+      <section className="contract" id="contract">
+        <p className="contract-header">Contract Information</p>
+        <ul className="contract-list">
+          <li className="contract-list__item">
+            <MaintenanceIcon />
+            No maintenance fees
+          </li>
+          <li className="contract-list__item">
+            <HardwareServiceIcon />
+            No hardware setup
+          </li>
+          <li className="contract-list__item">
+            <PlugIcon />
+            No excessive energy bill
+          </li>
+          <li className="contract-list__item">
+            <CognitiveIcon />
+            No cognitive overhead
+          </li>
+          <li className="contract-list__item">
+            *Customer owns all the hardware for the duration of the contract.
+            By the end of the your 2 year contract, falcon consulting will have
+            purchased your hardware back from you at 75% cost.
+          </li>
+        </ul>
+
+      </section>
+>>>>>>> 6016dcf2bde3b83447b5276af058a1f58512a479
     </main>
   )
 }

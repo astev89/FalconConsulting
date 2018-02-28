@@ -49,7 +49,7 @@ export default class FalconNav extends Component {
               Falcon Consulting
             </a>
           </h1>
-          <div onClick={() => this.setState({expanded: true})}>
+          <div className="falcon-header__nav-burger" onClick={() => this.setState({expanded: true})}>
             <HamburgerIcon />
           </div>
         </nav>
