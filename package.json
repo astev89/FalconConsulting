@@ -1,6 +1,9 @@
 {
   "name": "falcon-web",
   "version": "1.0.1",
+  "engines": {
+    "node": "8.2.1"
+  }
   "description": "Falcon Consulting Web Page",
   "main": "index.js",
   "scripts": {
@@ -44,7 +47,7 @@
     "redux-thunk": "^2.2.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
-    "webpack": "3.9.1",
+    "webpack": "^3.9.1",
     "webpack-dev-server": "^2.9.5"
   }
 }
