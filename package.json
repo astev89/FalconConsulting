@@ -10,7 +10,7 @@
     "start": "npm run build ; node index.js",
     "test": "npx webpack-dev-server --open --config webpack.dev.js",
     "build": "npm i && npx webpack --config webpack.prod.js -p",
-    "postinstall": "webpack -p --config ./webpack.prod.js --progress"
+    "postinstall": "webpack --config ./webpack.prod.js --progress"
   },
   "author": "Aaron Stevens",
   "license": "ISC",
