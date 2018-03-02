@@ -6,7 +6,7 @@ import './_team.scss'
 const members = [
   {
     imageUrl: 'https://s3.amazonaws.com/cdn.falconconsulting.com/stevenProfile.JPG',
-    name: 'Steven Morales',
+    name: 'Stephen Morales',
     title: 'CEO',
     desc: 'Works directly with our domestic and international investors and is in charge of policy-making as well as implementation of operations.',
     email: 'smorales@falconconsulting.co'

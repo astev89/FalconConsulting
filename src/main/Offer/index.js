@@ -29,7 +29,7 @@ export default function Offer() {
 
           We have a low risk and lucrative business model to not only insure a low risk for our investors, but to maximize their ROI.
           We offer a generous buy back program in which we purchase hardware back from you.
-          First round of Investors (funds due by 03/2/2018 or 3/8*) will receive back 75% of their investment at the end of their 2 - year term.
+          First round of Investors (funds due by 03/12/2018) will receive back 75% of their investment at the end of their 2 - year term.
         </p>
       </div>
 
@@ -88,7 +88,7 @@ export default function Offer() {
         <hr/>
         <p className="offer-block__text">
           There is immense value associated with the altcoin cryptocurrency market. As such, we understand that it is likely that our customers
-          will want to get involved. That is why we offer a means to pivot bewteen the most profitable currencies to maximize profitablity.
+          will want to get involved. That is why we offer a means to pivot between the most profitable currencies to maximize profitablity.
         </p>
       </div>
 
@@ -98,7 +98,7 @@ export default function Offer() {
         </h3>
         <hr/>
         <p className="offer-block__text">
-          Most of our initial investors have worked with one of our tem members in the past and have trusted our expertise to give them results.
+          Most of our initial investors have worked with one of our team members in the past and have trusted our expertise to give them results.
           This same foundation of trust is the pillar of Falcon Consulting.
           We value each and every one of our investors and stay 100% committed to complete transparency with them.
           If you feel that you need further explanation of mining or blockchain technology,
