@@ -50,9 +50,9 @@ export default function Plans() {
         </p>
       </PortalComponent>
 
-      {buildTier('Tier 1', 'Small', '$15,000', '@ 25% return of respective revenue')}
+      {buildTier('Tier 1', 'Small', '$25,000', '@ 25% return of respective revenue')}
       {buildTier('Tier 2', 'Substantial', '$75,000', '@ 30% return of respective revenue')}
-      {buildTier('Tier 3', 'Large', '$200,000', '@ 35% return of respective revenue')}
+      {buildTier('Tier 3', 'Large', '$150,000', '@ 35% return of respective revenue')}
       {buildTier('Tier 4', 'X Large', 'Email For Details', 'Custom respective return')}
 
       <section className="contract" id="contract">
@@ -77,7 +77,8 @@ export default function Plans() {
           <li className="contract-list__item">
             *Customer owns all the hardware for the duration of the contract.
             By the end of the your 2 year contract, falcon consulting will have
-            purchased your hardware back from you at 75% cost.
+            purchased your hardware back from you at 75% cost for all first round investors. 
+            All second round investors and thereafter will recieve 50% of their investments returned.
           </li>
         </ul>
 

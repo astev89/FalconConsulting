@@ -29,7 +29,8 @@ export default function Offer() {
 
           We have a low risk and lucrative business model to not only insure a low risk for our investors, but to maximize their ROI.
           We offer a generous buy back program in which we purchase hardware back from you.
-          First round of Investors (funds due by 03/12/2018) will receive back 75% of their investment at the end of their 2 - year term.
+          First round of Investors (funds due by 03/12/2018) will receive back 75% of their investment at the end of their 2 - year term. 
+          Any investor that signs up after the first round of investors will recieve back 50% of their investment at the end of their 2 - year term.
         </p>
       </div>
 
@@ -47,16 +48,16 @@ export default function Offer() {
         <p className="offer-block__text-title">HERE IS OUR ESTIMATED HASHING POWER PER PLAN:</p>
         <ul className="offer-block__list">
           <li className="offer-block__list-item">
-            Tier 1 $15,000:
-            700 MH/s
+            Tier 1 $25,000:
+            1,330 MH/s
           </li>
           <li className="offer-block__list-item">
-            Tier 2 $100,000:
-            5,700 MH/s
+            Tier 2 $75,000:
+            3,960 MH/s
           </li>
           <li className="offer-block__list-item">
-            Tier 3 $250,000:
-            14,000 MH/s
+            Tier 3 $150,000:
+            8,250 MH/s
           </li>
         </ul>
         <p className="offer-block__text">
